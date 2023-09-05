@@ -1,7 +1,5 @@
 streamlit
 tensorflow
 matplotlib
-pandas
-numpy
 pillow
 scikitlearn
