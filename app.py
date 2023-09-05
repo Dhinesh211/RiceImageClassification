@@ -23,8 +23,6 @@ import matplotlib.image as mpimg
 # Define the home function
 def home():
     st.write("## Introduction")
-    imageha = mpimg.imread('image.jpg')     
-    st.image(imageha)
     st.write("This app uses  convolutional neural network  to classify variety rice image into five different class category")
    
     
