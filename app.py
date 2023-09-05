@@ -5,8 +5,6 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 import matplotlib.pyplot as plt
-import seaborn as sns
-sns.set(style= "darkgrid", color_codes = True)
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from tensorflow.keras.models import Sequential
@@ -25,8 +23,7 @@ def home():
     st.write("## Introduction")
     st.write("This app uses  convolutional neural network  to classify variety rice image into five different class category")
    
-    imageha = mpimg.imread('image.jpg')     
-    st.image(imageha)
+    
     st.write("This Data contains around 75k images of size 50x50 distributed under 5 categories.")
     st.write("'Arborio' -> 0")
     st.write("'Basmati' -> 1")
