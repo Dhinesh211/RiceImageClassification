@@ -5,4 +5,4 @@ seaborn
 pandas
 numpy
 pillow
-sklearn
+scikitlearn
